@@ -387,4 +387,54 @@ footer a {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg); 
     }
+    .companies {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 480px) {
+    #home {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .hero h1 {
+        font-size: 1.8em;
+    }
+    .hero-description {
+        font-size: 0.9em;
+    }
+    .demo-image {
+        max-width: 150px;
+    }
+    .feature-item, .argument-item {
+        padding: 15px;
+    }
+    .pricing-plan {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .trustedby {
+        flex-direction: column;
+        align-items: center;
+    }
+    .companies {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .argument-list {
+        grid-template-columns: 1fr;
+    }
+    .pricing-table {
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-media {
+        flex-direction: row;
+        align-items: center;    
+    }
 }
