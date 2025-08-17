@@ -7,15 +7,19 @@ html, body {
     height: 100%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
+    background-color: #e5e4e4;
+    padding-top: 60px;;
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     padding: 10px 20px;
     background-color: #3b3e40;
-    padding: 20px;
-    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 .product {
     font-size: 1.5em;
@@ -57,12 +61,10 @@ section {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #e5e3e3;
 }
 #home {
     display: flex;
-    align-items: center;
-    background-color: #f0f0f0;
+    align-items: center;;
     padding: 20px;
     gap: 80px;
 }
@@ -77,6 +79,10 @@ section {
 }
 .hero a {
     text-decoration: none;
+}
+.hero a:hover {
+    background-color: #26a854;
+    transition: all 0.3s ease;
 }
 .hero h1 {
     font-size: 2.5em;
@@ -129,7 +135,6 @@ button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f8f9fa;
     padding: 20px;
     gap: 30px;
 }
@@ -150,7 +155,6 @@ button:hover {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #fcfbfb;
     gap: 20px;
 }
 .feature-list {
@@ -187,7 +191,6 @@ button:hover {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #f0f0f0;
     gap: 20px;
 }
 .argument-list {
@@ -217,7 +220,6 @@ button:hover {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #ffffff;
     gap: 20px;
 }
 .pricing-table {
@@ -233,6 +235,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    background-color: white;
     border: 1px solid #ddd;
     border-radius: 10px;
     text-align: center;
@@ -245,7 +248,8 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: #3b3e40;
+    color: white;
     text-align: center;
     gap: 10px;
 }
