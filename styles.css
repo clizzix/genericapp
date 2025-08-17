@@ -308,19 +308,19 @@ footer a {
 }
 
 .facebook-button {
-  background-image: url('/Buttons/fbbutton.png');
+  background-image: url('Buttons/fbbutton.png');
 }
 
 .instagram-button {
-  background-image: url('/Buttons/instabutton.png');
+  background-image: url('Buttons/instabutton.png');
 }
 
 .x-button {
-  background-image: url('/Buttons/xbutton.png');
+  background-image: url('Buttons/xbutton.png');
 }
 
 .youtube-button {
-  background-image: url('/Buttons/ytbutton.png');
+  background-image: url('Buttons/ytbutton.png');
 }
 .feature-icon, .argument-icon {
     background-color: #26a854;
