@@ -17,6 +17,11 @@
                 <li><a href="#tryout">Try for free</a></li>
             </ul>
         </div>
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
     </header>
     <main>
         <section id="home">
@@ -139,5 +144,16 @@
             <a href="https://www.youtube.com" class="social-button youtube-button" target="_blank">YouTube</a>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('.nav');
+
+            hamburger.addEventListener('click', function() {
+                nav.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>
