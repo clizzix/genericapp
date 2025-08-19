@@ -292,8 +292,19 @@ button:hover {
     border-radius: 10px;
     text-align: center;
     width: 30%;
+    margin: 15px;
+    gap: 15px;
+}
+.pricing-plan h4 {
+    margin-bottom: 10px;
+    color: #26a854;
+}
+.pricing-features {
+    list-style: disc;
+    padding: 0;
     margin: 10px;
-    gap: 30px;
+    text-align: left;
+    line-height: 1.5rem;
 }
 footer {
     display: flex;
