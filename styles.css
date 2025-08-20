@@ -93,6 +93,7 @@ section {
     padding: 20px;
     border: 1px solid #ddd;
     background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 .hero a {
     text-decoration: none;
@@ -140,6 +141,7 @@ button:hover {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 .demo p {
     max-width: 200px;
@@ -170,6 +172,12 @@ button:hover {
     align-items: center;
     gap: 20px;
 }
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #495057;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
 .companies img {
     width: 100px;
     height: auto;
@@ -177,13 +185,14 @@ button:hover {
     border: solid 1px #ddd;
 }
 #sample-video {
-    background-color: #f8f9fa;
+    background-color:#f8f9fa;
     color: #495057;
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 20px;
 }
+
 #features, .arguments {
     background-color: #f8f9fa;
     color: #495057;
@@ -288,6 +297,7 @@ button:hover {
     align-items: center;
     padding: 20px;
     background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     border: 1px solid #ddd;
     border-radius: 10px;
     text-align: center;
@@ -305,6 +315,7 @@ button:hover {
     margin: 10px;
     text-align: left;
     line-height: 1.5rem;
+    color: #555;
 }
 footer {
     display: flex;
@@ -430,6 +441,14 @@ footer a {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    .pricing-plan {
+        width: 50%;
+        margin: 10px 0;
+    }
+    .pricing-table {
+    flex-direction: column;
+    align-items: center;
+}
 }
 @media screen and (max-width: 480px) {
     #home {
